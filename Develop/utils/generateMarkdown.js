@@ -12,8 +12,8 @@ function generateMarkdown(userResponses, userInfo) {
   if (userResponses.contributing !== '') { draftTable += `
   * [Contributing](#contributing)` };
 
-  let draftMarkdown = 
-  `# ${userResponses.title}
+  let draftMarkdown = `
+  # ${userResponses.title}
   
   ## Description
 
@@ -21,45 +21,47 @@ function generateMarkdown(userResponses, userInfo) {
   `
   draftMarkdown += draftTable;
 
-  draftMarkdown += `*[license](#license)`;
+  draftMarkdown += `
+  
+  *[license](#license)`;
 
   if (userResponses.installation !== '' ){
 
-    draftMarkdown +=
+    draftMarkdown +=`
 
-    `## Installation
+    ## Installation
     
     ${userResponses.installation}`
   };
 
   if (userResponses.usage !== ''){
     
-    draftMarkdown +=
+    draftMarkdown +=`
     
-    `## Usage
+    ## Usage
     
     ${userResponses.usage}`
   };
 
   if (userResponses.contributing !== ''){
 
-    draftMarkdown +=
+    draftMarkdown +=`
 
-    `## Contributing
+    ## Contributing
     
     ${userResponses.contributing}`
   };
 
-  draftMarkdown +=
+  draftMarkdown +=`
 
-  `## License
+  ## License
   
   ${userResponses.license}`
   ;
 
-  let draftDeveloper = 
+  let draftDeveloper = `
   
-  `## Questions?
+  ## Questions?
   
   For any questions, please contact me with the information below:
  
@@ -67,9 +69,9 @@ function generateMarkdown(userResponses, userInfo) {
 
   if (userInfo.email !== null) {
   
-    draftDeveloper +=
+    draftDeveloper +=`
     
-    `Email: ${userInfo.email}`
+    Email: ${userInfo.email}`
   };
 
   draftMarkdown += draftDeveloper;

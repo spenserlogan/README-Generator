@@ -1,5 +1,5 @@
-# Spenser's README
-  ![Badge for GitHub](https://img.shields.io/github/languages/top/undefined/README-Generator?style=flat&logo=appveyor)
+
+  # Spenser's README
   
   ## Description
 
@@ -7,15 +7,27 @@
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contributing](#contributing)*[license](#license)## Installation
-    
-    test## Usage
-    
-    test## Contributing
-    
-    undefined## License
+  * [Contributing](#contributing)
   
-  mit## Questions?
+  *[license](#license)
+
+    ## Installation
+    
+    test
+    
+    ## Usage
+    
+    test
+
+    ## Contributing
+    
+    undefined
+
+  ## License
+  
+  apache-2.0
+  
+  ## Questions?
   
   For any questions, please contact me with the information below:
  
