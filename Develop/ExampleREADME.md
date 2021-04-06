@@ -1,9 +1,9 @@
 
-  # Spenser's README
+  # spenser's readme
   
   ## Description
 
-  test
+  to help users create professional readme files using command line
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -13,11 +13,11 @@
 
     ## Installation
     
-    test
+    install inquirer and axios
     
     ## Usage
     
-    test
+    install inquirer and axios then run node . and answer the questions
 
     ## Contributing
     
@@ -25,7 +25,7 @@
 
   ## License
   
-  apache-2.0
+  mit
   
   ## Questions?
   

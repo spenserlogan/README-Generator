@@ -12,10 +12,6 @@ function generateMarkdown(userResponses, userInfo) {
   if (userResponses.contributing !== '') { draftTable += `
   * [Contributing](#contributing)` };
 
-  draftMarkdown += `
-  
-  *[license](#license)`;
-
   let draftMarkdown = `
   # ${userResponses.title}
   
@@ -24,6 +20,10 @@ function generateMarkdown(userResponses, userInfo) {
   ${userResponses.description}
   `
   draftMarkdown += draftTable;
+
+  draftMarkdown += `
+  
+  *[license](#license)`;  
 
   if (userResponses.installation !== '' ){
 
